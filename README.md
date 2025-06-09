@@ -54,6 +54,7 @@ Be sure to run this in the virtual environment.
 
 ## pdf_keyword_search.py
 `pip install pdfplumber`
+
 `pip install pdfplumber rapidfuzz`
 
 ## FlatworldGame
