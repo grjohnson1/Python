@@ -60,3 +60,15 @@ generations before for a result that can improve or disadvantage the Bees in how
 `py Insects.py`
 
 ![Screenshot 2025-05-10 161300](https://github.com/user-attachments/assets/9fe3d455-d65a-46c7-9f65-170f382ec8a8)
+
+## Neural Flatworld
+This is the first use of TensorFlow to allow for learning to happen so that the Herbivores and Carnivores are more efficient.
+The Herbivores will attempt to get the grass more often and the Carnivores will spin around so they have a wider viewing area. 
+Allowing them to identify Herbivores that are close by.
+
+Holding the spacebar down will allow the process to run slower. While releasing will allow the processing to speed up.
+
+### Run Game from CMD Prompt
+`cd FlatworldGame`
+
+`py NeuralFlatworld.py`
