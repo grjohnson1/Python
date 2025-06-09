@@ -181,7 +181,7 @@ def compose(template, fields):
             result += ' ' + t
     return result.strip()
 
-from ELIZArules import conversions, rules
+from ElizaRules import conversions, rules
 
 while True:
     text = input('? ')
