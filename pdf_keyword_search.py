@@ -8,7 +8,7 @@ from rapidfuzz import fuzz
 logging.getLogger("pdfminer").setLevel(logging.ERROR)
 
 # Folder containing PDFs
-folder_path = "resumes"
+folder_path = "folder_location"
 # Output CSV file
 output_csv = "results_by_file.csv"
 
