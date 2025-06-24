@@ -1,3 +1,11 @@
+"""
+drawTriangle.py 
+
+Draw a Triangle with each side a different color
+
+Author: Gregg Johnson
+"""
+
 import turtle
 
 def draw_triangle(x1,y1, x2,y2, x3,y3, t):

@@ -13,3 +13,9 @@ Simple drawing of a Triangle where I personally added a color for each line.
 
 ## koch.py
 This is the Koch Snowflake being drawn.
+
+## spiro.py
+Draw various spirographs using simple calculation.
+
+## conway.py
+Conway's game of life is a cellular automation game that has a set of rule on how the cells will expand/grow.

@@ -4,6 +4,7 @@ koch.py
 A program that draws the Koch snowflake.
 
 Author: Mahesh Venkitachalam
+Coded by: Gregg Johnson
 """
 
 import turtle
