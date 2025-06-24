@@ -18,6 +18,11 @@ This one was personally created and not from any book or publication.
 
 `py pdf_keyword_search.py`
 
+## mazeGenerator.py
+Draw a maze using a grid layout. This gave me the idea to create a maze game for my website at dochano.com.
+
+`py mazeGenerator.py`
+
 
 # Preparing
 The following steps will allow for you to pull down the projects and get them to work locally. I elected to place this after the projects so you can determine if there is interest before installing.
