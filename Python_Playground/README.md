@@ -39,11 +39,6 @@ Conway's game of life is a cellular automation game that has a set of rule on ho
 `py conway.py`
 ![Screenshot 2025-06-24 122532](https://github.com/user-attachments/assets/dd6ea2ce-12a9-4851-81dc-246344ef1afe)
 
-See Conway_Figure_1.png as example of saving the game down at a particular time which was close to the end where only block, loaf, blinker, or glider is left.
+See Conway_Figure_1.png as example of saving the game down at a particular time which was close to the end where only block (2x4 square), loaf (surrounded/circular like), blinker (1x3 line), or glider (almost points in a direction) is left.
 
-Block
-| | | | |
-| |■|■| |
-| |■|■| |
-| | | | |
 
