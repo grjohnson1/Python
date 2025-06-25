@@ -27,3 +27,14 @@ Passing parameters examples:
 
 ## conway.py
 Conway's game of life is a cellular automation game that has a set of rule on how the cells will expand/grow.
+
+## ks.py
+Karplus String algorithm is used to generate musical notes in a pentatonic scale. Creates a WAV file for each musical note. Will check if musical note is created before writing file. The minor pentatonic notes are used as they sound relatively nice when randomly combined with the other minor notes.
+
+`py ks.py` - will write the WAV files. C4 Eb, F, G, and Bb.
+
+`py ks.py --display` - will play the notes and display a plot of the waves the musical note plays.
+
+`py ks.py --play` - will randomly play the muciscal notes. Will need to `CTRL+C` to stop running the program.
+
+
