@@ -49,3 +49,16 @@ Karplus String algorithm is used to generate musical notes in a pentatonic scale
 `py ks.py --display` - will play the notes and display a plot of the waves the musical note plays.
 
 `py ks.py --play` - will randomly play the musical notes. Will need to `CTRL+C` to stop running the program.
+
+Note: this requires `pip install PyAudio`
+
+## boids.py
+This is a bird migration simulator. Boids is a how a New Yorker would pronounce bird. This works with the three core rules: Separation, Alignment, and Cohesion for each bird.
+
+Doing a left mouse click will add a new bird to the flock. A right mouse click will scatter the birds similar as if they encountered an obstacle.
+
+`py boids.py` - will render 100 in the center and they will move from there.
+
+`py boid.py --num-boids #` - will render the number of birds entered. The default is 100.
+
+Note: this requires `pip install scipy`
