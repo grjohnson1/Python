@@ -62,3 +62,15 @@ Doing a left mouse click will add a new bird to the flock. A right mouse click w
 `py boid.py --num-boids #` - will render the number of birds entered. The default is 100.
 
 Note: this requires `pip install scipy`
+
+## ascii.py
+This will take an image (png or jpg) and convert it into ASCII characters. You can choose the default of 10 characters or go with 70 characters. This take the value of the image as a grayscale and determines what level of gray it is at each section (row, column).
+
+`py ascii.py --file [location/of/data/file.jpg]` - renders with 10 characters used
+
+`py ascii.py --file [location/of/data/file.jpg] --morelevels` - renders with 70 characters used
+
+Other parameters:
+* `--scale [font_name]` - will change the font from Courier to value specified
+* `--out [file_name]` - will change the output filename from the default of 'out'
+* `--cols #` - will set the number of columns for the ASCII text
