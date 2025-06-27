@@ -74,3 +74,16 @@ Other parameters:
 * `--scale [font_name]` - will change the font from Courier to value specified
 * `--out [file_name]` - will change the output filename from the default of 'out'
 * `--cols #` - will set the number of columns for the ASCII text
+
+
+## photomosaic.py
+This script will take a target image and generate a mosaic using images from an folder of images. Instead of grayscale it will use RGB colors to determine which image is best for a certain tile (or sliced section of the image from a particular row and column location). This has three required parameters to be passed in.
+
+`py photomosaic.py --target-image [location/of/data/file.jpg] --input-folder [location/of/folder/images] --grid-size #`
+
+Parameter Key:
+* `--target-image [location/of/data/file.jpg]` - the image to create the mosaic off of
+* `--input-folder [location/of/folder/images]` - the folder that holds the mosaic images
+* `--grid-size # #` - This will be the # of rows and the # of columns
+* `--output-file [file_name]` - will change the ouput filename
+* `--kdt` - will enable k-dimensional tree search instead of linear search for matching average RGB values
