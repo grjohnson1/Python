@@ -99,4 +99,19 @@ Parameter Key:
 * `--tile [location/of/folder/file.png]` - pass the tile image location (e.g. escher-tile)
 * `--out [file_name]` - will change the output filename
 
+## simpleglfw.py
+Script that will take a simple 2D image and flip it around. Hitting any key will toggle between rounding the corners to original file. ESC will close out the window.
+
+`py simpleglfw.py`
+
+## gol_torus.py
+Conway's game of life is a cellular automation game that has a set of rule on how the cells will expand/grow but now it is on a 3D version that rotates while the cell changes.
+
+`py gol_torus.py`
+
+Parameter Key:
+* `--glider` - when added will only render a glider which will be the only thing moving alongthe rendered 3D image.
+
+
+
 
