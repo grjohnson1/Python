@@ -87,3 +87,16 @@ Parameter Key:
 * `--grid-size # #` - This will be the # of rows and the # of columns
 * `--output-file [file_name]` - will change the ouput filename
 * `--kdt` - will enable k-dimensional tree search instead of linear search for matching average RGB values
+
+## autos.py
+Script that will take an image and make it into an autostereogram. It is recommended to use a depth map (dmap) image converted to single-channel grayscale. Note that the createRandomTile() will create an image to run the autos script. Otherwise you can pass in your own image. Note that it will use colored dots unless you pass in tile image to use.
+
+`py autos.py --depth data/shark.png` or
+`py autos.py --depth data/shark-depth.png --out data/autos-shark.png`
+
+Parameter Key:
+* `--depth [location/of/folder/file.jpg]` - pass the depth image location
+* `--tile [location/of/folder/file.png]` - pass the tile image location (e.g. escher-tile)
+* `--out [file_name]` - will change the output filename
+
+
